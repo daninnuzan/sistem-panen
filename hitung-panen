@@ -14,5 +14,11 @@ for i in range(n):
     jumlah = float(input(f"Hasil panen ke-{i+1} (kg): "))
     hasil_panen.append(jumlah)
 
-total = sum(hasil_panen)
+total = sum(hasil_pa        return total * 0.10
+nen)
 print(f"Total hasil panen: {total} kg")
+def hitung_diskon(total):
+    if total >= 1000:
+    elif total >= 500:
+        return total * 0.05
+    return 0
